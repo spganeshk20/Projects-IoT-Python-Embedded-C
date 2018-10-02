@@ -1,4 +1,4 @@
-# projects
+# Projects-IoT-Python-Embedded-C
 
 The Repository contains IoT projects E2E solution developed using the following programming languages and concepts used, Hardware platform and cloud platforms
 
