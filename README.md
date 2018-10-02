@@ -6,7 +6,7 @@
  Everyone is permitted to copy and distribute verbatim copies
  of this license document, but changing it is not allowed.
  
- Note: Detailed information, please read the License.md file in the repository
+** Note: For detailed license information, please read the License.md file in the repository **
 
 # Projects-IoT-Python-Embedded-C
 
