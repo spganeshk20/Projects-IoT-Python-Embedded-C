@@ -2,7 +2,7 @@
 
 """
 ------------------------------------------
-		License Information
+    License Information
 ------------------------------------------
         GNU GENERAL PUBLIC LICENSE
         Version 3, 29 June 2007
@@ -16,8 +16,8 @@ please read the LICENSE file in the repository[Repository Name: Projects-IoT-Pyt
 """
 
 """
-script name   : delete_.py_file_from_directory.py
-Functionality : Deletes the .py(python) file from the directory
+script name   : delete_file_if_.py_file_size_is_zero.py
+Functionality : Deletes the .py(python) file from the directory if .py(python) file size is zero
 Created on    : 21 NOV 2015
 """
 
@@ -26,37 +26,26 @@ __author__ = 'Ganesh'
 # Global import
 import os
 
-
 cwd = os.getcwd()
+print cwd
 
 count = 0
 for (dirname, dirs, files) in os.walk('.'):
    for filename in files:
-       if filename.endswith('.txt') :
+       if filename.endswith('.py') :
            count = count + 1
 print 'Files:', count
 i=1
-a,b=[], []
+a=[]
+b=[]
 from os.path import join
 for (dirname, dirs, files) in os.walk('.'):
    for filename in files:
-       if filename.endswith('.txt') :
+       if filename.endswith('.py') :
            thefile = os.path.join(dirname,filename)
            a.append(thefile)
            b.append(os.path.getsize(thefile))
-count1=1
 for i in range(len(a)):
     print a[i],b[i]
-    for i in range(len(a)):
-        count1=0  
-        for j in range(len(b)):
-            if (a[i].endswith('.py') == a[j].endswith('.py')) & ((b[i]==0)&b[j]==0):
-                count1=count1+1
-    print count1
-              
-    if (count1>1):
-        for k in range(1,count1):
-            if((count1==k)):
-                break
-            else:
-                os.remove(a[k])
+    if b[i]==0:
+        os.remove(a[i])
