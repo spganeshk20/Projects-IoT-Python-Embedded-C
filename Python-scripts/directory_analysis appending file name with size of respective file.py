@@ -16,8 +16,8 @@ please read the LICENSE file in the repository[Repository Name: Projects-IoT-Pyt
 """
 
 """
-script name   : delete_.py_file_from_directory.py
-Functionality : Deletes the .py(python) file from the directory
+script name   : directory_analysis_appending_file_name_with_file_size.py
+Functionality : Get the file name and file size details from directory
 Created on    : 21 NOV 2015
 """
 
@@ -26,37 +26,27 @@ __author__ = 'Ganesh'
 # Global import
 import os
 
-
 cwd = os.getcwd()
+print cwd
+listdir=os.listdir(cwd)
+print listdir
+path=os.path.abspath('ne.py')
+print path
+pathexist=os.path.exists('ne.py')
+print pathexist
+pathdir=os.path.isdir('ne.py')
+print pathdir
 
-count = 0
+count = 0													# Count the number of .py(any extension) file in particular directory
 for (dirname, dirs, files) in os.walk('.'):
    for filename in files:
-       if filename.endswith('.txt') :
+       if filename.endswith('.py') :
            count = count + 1
 print 'Files:', count
-i=1
-a,b=[], []
-from os.path import join
+
+from os.path import join									# To concatenate the file name and directory
 for (dirname, dirs, files) in os.walk('.'):
    for filename in files:
-       if filename.endswith('.txt') :
+       if filename.endswith('.py') :
            thefile = os.path.join(dirname,filename)
-           a.append(thefile)
-           b.append(os.path.getsize(thefile))
-count1=1
-for i in range(len(a)):
-    print a[i],b[i]
-    for i in range(len(a)):
-        count1=0  
-        for j in range(len(b)):
-            if (a[i].endswith('.py') == a[j].endswith('.py')) & ((b[i]==0)&b[j]==0):
-                count1=count1+1
-    print count1
-              
-    if (count1>1):
-        for k in range(1,count1):
-            if((count1==k)):
-                break
-            else:
-                os.remove(a[k])
+           print os.path.getsize(thefile), thefile
