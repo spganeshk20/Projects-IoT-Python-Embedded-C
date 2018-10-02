@@ -25,7 +25,3 @@ Hardware platform
 cloud platforms
   1. Thingspeak
   2. IBM Bluemix services
-
-Concepts used in cloud and programming languages:
-  - Embedded C
-  - Python
