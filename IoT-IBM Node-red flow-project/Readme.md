@@ -1,4 +1,4 @@
-#License Information
+# License Information
         GNU GENERAL PUBLIC LICENSE
         Version 3, 29 June 2007
 Copyright (C) 2007 Free Software Foundation, Inc. 
@@ -10,7 +10,7 @@ Note: For detailed license information,
 please read the LICENSE file in the repository[Repository Name: Projects-IoT-Python-Embedded-C]
 
 
-#IoT Node-red
+# IoT Node-red Dashboard for live sensor data display
 
 IoT Node red sensor data display dashboard(UI) End-to-End(E2E) solution projects developed using the below following programming languages and concepts, Hardware platform and cloud platforms
 
