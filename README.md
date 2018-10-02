@@ -1,6 +1,6 @@
 # Projects-IoT-Python-Embedded-C
 
-The Repository contains IoT projects E2E solution developed using the following programming languages and concepts used, Hardware platform and cloud platforms
+The Repository contains IoT End-to-End(E2E) solution projects developed using the below following programming languages and concepts, Hardware platform and cloud platforms
 
 Programming languages
   1. Embedded C
@@ -16,6 +16,6 @@ cloud platforms
   1. Thingspeak
   2. IBM Bluemix services
 
-Concepts used:
+Concepts used in cloud and programming languages:
   - Embedded C
   - Python
