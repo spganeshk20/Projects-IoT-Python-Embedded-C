@@ -26,7 +26,7 @@ __author__ = 'Ganesh'
 import time
 from ubidots import ApiClient
 
-for i in range(0,5):															# Attempting to connect to ubidots cloud
+for i in range(0,5):									# Attempting to connect to ubidots cloud
     try:
         print ("Requesting Ubidots token");
         api = ApiClient('Add your client id here from ubidots cloud') 			# Connect to Ubidots
@@ -40,4 +40,4 @@ a1 = 5;																			# Sample input values to write into cloud
 
 while(1):
     api.save_collection([{'variable': '57a981467625425e2ffe0550','value':a0}, 
-    	{'variable': '57a981507625425dae56f691','value':a1}])					# Writes the data into cloud using ubidots write API
+    	{'variable': '57a981507625425dae56f691','value':a1}])				# Writes the data into cloud using ubidots write API
