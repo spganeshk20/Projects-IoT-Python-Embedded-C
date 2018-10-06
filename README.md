@@ -27,3 +27,4 @@ Hardware platform
 cloud platforms
   1. Thingspeak
   2. IBM Bluemix services
+  3. Ubidots
