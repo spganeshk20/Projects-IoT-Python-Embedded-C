@@ -35,7 +35,6 @@ def print_msg(msg):
     Function Invoked : None
     Return value	 : None
     """
-
     try:
         print(str(msg))
     except Exception as e_obj:
