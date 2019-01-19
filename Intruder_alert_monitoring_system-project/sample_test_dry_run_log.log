@@ -1,0 +1,62 @@
+C:\Python27\python.exe C:/Users/GK/Desktop/Intruder_project/intruder_alert.py
+************************************************************
+				Intruder Alert System
+************************************************************
+------------------------------
+	Breach Alert by Intruder
+------------------------------
+LED Status: ON
+Current Intruder status: BREACH
+Writing the data into cloud....
+Data written to the cloud successful
+--------------- Recent Intruder Breach Alert Information ---------------
+Intruder status: BREACH
+Time Intruder detected: 2019-01-19 23:36:13.476000
+Distance Intruder Identified: 3.5
+--------------- Intruder Alert System Reset Status ---------------
+System reset status: ON
+Last System reset time: 2019-01-19 23:34:45.423000
+Updating the reset system information into cloud server
+Writing the data into cloud....
+Data written to the cloud successful
+********************************************************************************
+------------------------------
+Intruder Alert System Force Restart
+------------------------------
+Updating the reset data information into cloud server
+Writing the data into cloud....
+Data written to the cloud successful
+------------------------------
+System force reset
+------------------------------
+LED Status: OFF
+Current Intruder status: SAFE
+********************************************************************************
+------------------------------
+	Area Under Safe
+------------------------------
+LED Status: OFF
+Current Intruder status: SAFE
+--------------- Last Intruder Breach Alert Information ---------------
+Intruder status: SAFE
+Time Intruder detected: 2019-01-19 23:37:15.272000
+Distance Intruder Identified: 0
+--------------- Intruder Alert System Reset Status ---------------
+System reset status: OFF
+Last System reset time: 2019-01-19 23:36:44.990000
+********************************************************************************
+------------------------------
+	Area Under Safe
+------------------------------
+LED Status: OFF
+Current Intruder status: SAFE
+--------------- Last Intruder Breach Alert Information ---------------
+Intruder status: SAFE
+Time Intruder detected: 2019-01-19 23:37:15.272000
+Distance Intruder Identified: 0
+--------------- Intruder Alert System Reset Status ---------------
+System reset status: OFF
+Last System reset time: 2019-01-19 23:36:44.990000
+********************************************************************************
+
+Process finished with exit code -1
