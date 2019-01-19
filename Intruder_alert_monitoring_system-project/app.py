@@ -58,9 +58,9 @@ def range_finder(range_find):
         pulse_end = 0
         if range_find is True:
             utils.print_msg("Measuring the Intruder distance")
-            gpio.output(config.ULTRASONIC_SENSOR_TRIGGER_PIN, False)			# Set port/pin value to 0/GPIO.LOW/False
-            time.sleep(config.NUMERIC_CONSTANT_TWO)								# Waiting time For Sensor To Settle
-            gpio.output(config.ULTRASONIC_SENSOR_TRIGGER_PIN, True)				# Set port/pin value to 1/GPIO.HIGH/True
+            gpio.output(config.ULTRASONIC_SENSOR_TRIGGER_PIN, False)		# Set port/pin value to 0/GPIO.LOW/False
+            time.sleep(config.NUMERIC_CONSTANT_TWO)				# Waiting time For Sensor To Settle
+            gpio.output(config.ULTRASONIC_SENSOR_TRIGGER_PIN, True)		# Set port/pin value to 1/GPIO.HIGH/True
             time.sleep(config.NUMERIC_CONSTANT_ONE/10000)
             gpio.output(config.ULTRASONIC_SENSOR_TRIGGER_PIN, False)
             while gpio.input(config.ULTRASONIC_SENSOR_ECHO_PIN) == \
