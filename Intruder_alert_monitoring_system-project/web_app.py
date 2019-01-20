@@ -1,9 +1,28 @@
+#!/usr/bin/python2.7
+
+"""
+------------------------------------------
+        License Information
+------------------------------------------
+        GNU GENERAL PUBLIC LICENSE
+        Version 3, 29 June 2007
+Copyright (C) 2007 Free Software Foundation, Inc
+https://fsf.org/ Everyone is permitted to copy and
+distribute verbatim copies of this license document,
+but changing it is not allowed.
+Note: For detailed license information,
+please read the LICENSE file in the repository
+[Repository Name: Projects-IoT-Python-Embedded-C]
+"""
+
+__author__ = 'Ganesh'
+
 """
 script name   : web_app.py
-Functionality : Simple hello world flask application using POST method
+Functionality : Flask application to display the data on Intruder System
+                Dashboard
 Created on    : 20 JAN 2019
 """
-__author__ = 'Ganesh'
 
 # Global Imports
 from flask import Flask, render_template, redirect, url_for
