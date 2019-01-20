@@ -1,0 +1,120 @@
+C:\Python27\python.exe "C:/Users/GK/Desktop/Intruder_alert_monitoring_system-project - sourcvce-v1.2/sensor_app.py"
+************************************************************
+				Intruder Alert System
+************************************************************
+------------------------------
+	Breach Alert by Intruder
+------------------------------
+LED Status: ON
+Current Intruder status: BREACH
+Writing the data into cloud....
+Data written to the cloud successful
+--------------- Recent Intruder Breach Alert Information ---------------
+Intruder status: BREACH
+Time Intruder detected: 2019-01-20 13:34:59.692000
+Distance Intruder Identified: 4
+--------------- Intruder Alert System Reset Status ---------------
+System reset status: OFF
+Last System reset time: 2019-01-20 13:23:47.223000
+********************************************************************************
+------------------------------
+	Breach Alert by Intruder
+------------------------------
+LED Status: ON
+Current Intruder status: BREACH
+Writing the data into cloud....
+Data written to the cloud successful
+--------------- Recent Intruder Breach Alert Information ---------------
+Intruder status: BREACH
+Time Intruder detected: 2019-01-20 13:35:41.334000
+Distance Intruder Identified: 8
+--------------- Intruder Alert System Reset Status ---------------
+System reset status: OFF
+Last System reset time: 2019-01-20 13:23:47.223000
+********************************************************************************
+------------------------------
+	Breach Alert by Intruder
+------------------------------
+LED Status: ON
+Current Intruder status: BREACH
+Writing the data into cloud....
+Data written to the cloud successful
+--------------- Recent Intruder Breach Alert Information ---------------
+Intruder status: BREACH
+Time Intruder detected: 2019-01-20 13:36:23.019000
+Distance Intruder Identified: 6
+--------------- Intruder Alert System Reset Status ---------------
+System reset status: OFF
+Last System reset time: 2019-01-20 13:23:47.223000
+********************************************************************************
+------------------------------
+	Area Under Safe
+------------------------------
+LED Status: OFF
+Current Intruder status: SAFE
+--------------- Last Intruder Breach Alert Information ---------------
+Intruder status: BREACH
+Time Intruder detected: 2019-01-20 13:36:23.019000
+Distance Intruder Identified: 6
+--------------- Intruder Alert System Reset Status ---------------
+System reset status: OFF
+Last System reset time: 2019-01-20 13:23:47.223000
+********************************************************************************
+------------------------------
+	Breach Alert by Intruder
+------------------------------
+LED Status: ON
+Current Intruder status: BREACH
+Writing the data into cloud....
+Data written to the cloud successful
+--------------- Recent Intruder Breach Alert Information ---------------
+Intruder status: BREACH
+Time Intruder detected: 2019-01-20 13:37:15.967000
+Distance Intruder Identified: 6
+--------------- Intruder Alert System Reset Status ---------------
+System reset status: ON
+Last System reset time: 2019-01-20 13:37:08.951000
+Updating the reset system information into cloud server
+Writing the data into cloud....
+Data written to the cloud successful
+********************************************************************************
+------------------------------
+Intruder Alert System Force Restart
+------------------------------
+Updating the reset data information into cloud server
+Writing the data into cloud....
+Data written to the cloud successful
+------------------------------
+System force reset
+------------------------------
+LED Status: OFF
+Current Intruder status: SAFE
+********************************************************************************
+------------------------------
+	Breach Alert by Intruder
+------------------------------
+LED Status: ON
+Current Intruder status: BREACH
+Writing the data into cloud....
+Data written to the cloud successful
+--------------- Recent Intruder Breach Alert Information ---------------
+Intruder status: BREACH
+Time Intruder detected: 2019-01-20 13:39:13.140000
+Distance Intruder Identified: 7
+--------------- Intruder Alert System Reset Status ---------------
+System reset status: OFF
+Last System reset time: 2019-01-20 13:38:02.474000
+********************************************************************************
+------------------------------
+	Area Under Safe
+------------------------------
+LED Status: OFF
+Current Intruder status: SAFE
+--------------- Last Intruder Breach Alert Information ---------------
+Intruder status: BREACH
+Time Intruder detected: 2019-01-20 13:39:13.140000
+Distance Intruder Identified: 7
+--------------- Intruder Alert System Reset Status ---------------
+System reset status: OFF
+Last System reset time: 2019-01-20 13:38:02.474000
+********************************************************************************

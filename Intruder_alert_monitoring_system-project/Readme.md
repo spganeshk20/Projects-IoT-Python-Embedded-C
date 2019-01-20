@@ -38,7 +38,8 @@ Cloud platform - Thingspeak
 # Steps to configure the file
 	1. To deploy the code on any raspberry pi board (use GPIO board configuration setup mode)
 	2. Edit config.py file parameter values (pin values and thingspeak cloud values)
-	3. Run app.py file on your raspberry pi board
+	3. Run sensor_app.py file on your raspberry pi board
+	4. Run web_app.py in local system (install flask python package)
 
 # Project tracking procedure
 
