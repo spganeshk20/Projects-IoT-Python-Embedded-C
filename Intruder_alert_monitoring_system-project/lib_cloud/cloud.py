@@ -20,7 +20,7 @@ __author__ = 'Ganesh'
 """
 script name   : cloud.py
 Functionality : Writes the data into thingspeak cloud
-Created on    : 19 JAN 2019
+Created on    : 20 JAN 2019
 """
 
 # Global Imports
@@ -212,6 +212,7 @@ def system_reset_status_cloud_data_read():
             if config.STR_ON.lower() == str(system_reset_string).lower():
                 utils.print_msg("Updating the reset system information into"
                                 " cloud server")
+                time.sleep(15)
                 system_reset_status_check = \
                     system_reset_status_cloud_data_write(0)
                 if system_reset_status_check is False:

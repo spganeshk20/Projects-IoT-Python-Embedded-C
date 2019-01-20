@@ -18,7 +18,7 @@ please read the LICENSE file in the repository
 """
 script name   : config.py
 Functionality : config information of the intruder alert system
-Created on    : 19 JAN 2019
+Created on    : 20 JAN 2019
 """
 
 __author__ = 'Ganesh'
@@ -53,10 +53,10 @@ STR_SYSTEM = 'SYSTEM'
 STR_NONE = 'NONE'
 
 # Cloud Constants
-DATA_CHANNEL_ID = 'xxxxxxxx'
-DATA_CHANNEL_WRITE_API_KEY = 'xxxxxxxxxxxxx'
-DATA_CHANNEL_READ_API_KEY = 'xxxxxxxxxxxxxx'
-SYSTEM_CHANNEL_ID = 'xxxxxxxx'
-SYSTEM_CHANNEL_WRITE_API_KEY = 'xxxxxxxxxxxxxx'
-SYSTEM_CHANNEL_READ_API_KEY = 'xxxxxxxxxxxxxxxx'
+DATA_CHANNEL_ID = 'xxxxxxx'
+DATA_CHANNEL_WRITE_API_KEY = 'xxxxxxxxxxxxxxxxx'
+DATA_CHANNEL_READ_API_KEY = 'xxxxxxxxxxxxxxxxxx'
+SYSTEM_CHANNEL_ID = 'xxxxxxx'
+SYSTEM_CHANNEL_WRITE_API_KEY = 'xxxxxxxxxxxxxxxx'
+SYSTEM_CHANNEL_READ_API_KEY = 'xxxxxxxxxxxxxxxxxx'
 
